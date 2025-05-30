@@ -338,7 +338,7 @@ export default function Buy() {
                             
                                 <span id="Facebook-buy"> Facebook</span>
                                 <br/>
-                                <a href="https://web.facebook.com/himal.sunera" class="nav-link"><span id="FacebookLink-buy"> www.facebook.com/Green Market</span></a>
+                                <a href="" class="nav-link"><span id="FacebookLink-buy"> www.facebook.com/Green Market</span></a>
                                 
                           </div>
 
