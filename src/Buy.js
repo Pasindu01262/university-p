@@ -13,7 +13,7 @@ export default function Buy() {
                     x=1;
 
                      document.body.style.backgroundColor="#01002E";
-                     document.getElementById("bulb-buy").className="bi bi-lightbulb-fill";
+                     document.getElementById("bulb-buy").className="bi bi-moon-fill";
                      document.getElementById("bulb-buy").style.color="white";
                      document.getElementById("main-topic-Buy").style.color="white";
                      document.getElementById("one-sub-topic-buy").style.color="white";
@@ -51,7 +51,7 @@ export default function Buy() {
                         x=0;
 
                         document.body.style.backgroundColor="white";
-                        document.getElementById("bulb-buy").className="bi bi-lightbulb"; 
+                        document.getElementById("bulb-buy").className="bi bi-moon";
                         document.getElementById("bulb-buy").style.color="black"; 
                         document.getElementById("main-topic-Buy").style.color="black";
                         document.getElementById("one-sub-topic-buy").style.color="black";
@@ -96,7 +96,7 @@ export default function Buy() {
 
             <div class="row">
                   <span id="main-topic-Buy">
-                    <a href="#"><i class="bi bi-lightbulb" onClick={Bulb} id="bulb-buy"></i></a>
+                    <a href="#"><i className="bi bi-moon" onClick={Bulb} id="bulb-buy"></i></a>
                     Suggested Categories for Used Items
                   </span>
             </div>
