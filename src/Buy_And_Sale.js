@@ -69,7 +69,7 @@ function Buy_And_Sale() {
 
               <div className="col-es-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <div className="card" id="card_02_BAS">
-                  <img id="image_02_BAS" src={require('./image/12.jpg')} alt="Sale" />
+                  <img id="image_02_BAS" src={require('./image/12.gif')} alt="Sale" />
                   <div id="card_body_02_BAS" className="card-body">
                     <button type="button" id="btn_02_BAS" className="btn btn-dark" onClick={click}>SALE</button>
                   </div>
